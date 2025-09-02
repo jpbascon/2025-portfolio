@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plaster&display=swap');
+@import 'tailwindcss';
+
+body {
+  @apply bg-gray-950 text-white;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Funnel Sans', sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+.plaster-font {
+  font-family: 'Plaster', system-ui;
+}
+
+.funnel-font {
+  font-family: "Funnel Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.navbar {
+  box-shadow: 0 0 50px rgba(0, 0, 0, .5);
+}
+
+.img {
+  border-radius: 100%;
+}
+
+.card {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .5);
+  transition: box-shadow .15s ease-in-out, transform .15s ease;
+}
+
+.card:hover {
+  box-shadow: 0 14px 15px rgba(34, 211, 238, .5);
+  transform: translateY(-5px);
+}
+
+@keyframes hovered {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(5px);
+  }
+}
