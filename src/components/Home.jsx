@@ -1,7 +1,7 @@
 const Home = () => {
   return (
     <>
-      <div className="flex pt-[12%] pb-[6%] max-w-7xl mx-auto relative">
+      <div className="flex pt-[12%] pb-[10%] max-w-7xl mx-auto relative">
         <div className="flex px-[5%] md:gap-[35%] justify-center items-stretch">
           <div className="flex flex-col w-full relative z-10">
             <div className="flex flex-col gap-5">
@@ -17,7 +17,7 @@ const Home = () => {
               className="brightness-100 object-fill" />
           </div>
           <div className="gap-5 flex flex-col justify-center w-full relative z-10">
-            <h2 className="text-6xl font-bold funnel-font">A web developer based in <span className="bg-gradient-to-r from-yellow-400 via-blue-500 to-red-500 bg-clip-text text-transparent">Philippines</span></h2>
+            <h2 className="text-5xl font-bold funnel-font">A web developer based in Philippines</h2>
             <p className="text-xl text-justify">
               Passionate in web development. Pursuing to become a full-stack developer.
               I'm looking for a company to contribute my skills and grow with a collaborative team, and help deliver impactful digital experiences.

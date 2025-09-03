@@ -34,7 +34,7 @@ const Projects = () => {
             <div className="flex gap-5">
               <img src="/Movie%20Explorer.png"
                 className="w-[350px] h-[350px] img object-scale-down bg-[#0e1245] rounded-xl" />
-              <div className="p-5 flex flex-col justify-evenly border-4 border-[#0e1245] rounded-xl">
+              <div className="p-5 flex flex-col justify-evenly border-4 border-neutral-900 rounded-xl">
                 <div>
                   <a href="https://react-1-0-2.vercel.app/" target="_blank"
                     className="text-5xl font-bold italic hover:underline">Movie Explorer</a>
