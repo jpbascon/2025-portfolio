@@ -1,20 +1,27 @@
 const Home = () => {
   return (
     <>
-      <div className="flex py-[10%] max-w-5xl mx-auto">
-        <div className="flex gap-20 justify-center">
-          <div className="flex flex-col justify-center w-full">
-            <h1 className="text-7xl font-bold funnel-font">Hey, I'm <span className="text-cyan-400">Jason</span></h1>
-            <div className="mt-15">
-              <p className="text-justify text-xl funnel-font">Passionate in web development. Pursuing to become a full-stack developer. I'm looking for a company to contribute my skills and grow with a collaborative team, and help deliver impactful digital experiences. </p>
+      <div className="flex pt-[12%] pb-[6%] max-w-7xl mx-auto relative">
+        <div className="flex px-[5%] md:gap-[35%] justify-center items-stretch">
+          <div className="flex flex-col w-full relative z-10">
+            <div className="flex flex-col gap-5">
+              <h1 className="text-7xl font-bold cormorant-font">Hey,<br /> I'm <span className="text-[#93595b]">Jason</span></h1>
+              <p className="text-justify text-2xl funnel-font">Web Developer</p>
             </div>
             <div className="flex gap-5 mt-15">
-              <button className="bg-cyan-400 text-gray-950 px-10 py-3 text-xl rounded-sm">contact</button>
+              <button className="border-1 border-[#93595b] hover:bg-[#93595b] px-10 py-3 text-xl rounded-sm transition-all">contact</button>
             </div>
           </div>
-          <div className="w-[70%]">
-            <img src="jasonb.jpeg"
-              className="w-[400px] img" />
+          <div className="max-w-[580px] top-[-.5%] left-[25%] overflow-hidden z-1 pointer-none absolute inset-y-0">
+            <img src="jasonguitar7.png"
+              className="brightness-100 object-fill" />
+          </div>
+          <div className="gap-5 flex flex-col justify-center w-full relative z-10">
+            <h2 className="text-6xl font-bold funnel-font">A web developer based in <span className="bg-gradient-to-r from-yellow-400 via-blue-500 to-red-500 bg-clip-text text-transparent">Philippines</span></h2>
+            <p className="text-xl text-justify">
+              Passionate in web development. Pursuing to become a full-stack developer.
+              I'm looking for a company to contribute my skills and grow with a collaborative team, and help deliver impactful digital experiences.
+            </p>
           </div>
         </div>
       </div>

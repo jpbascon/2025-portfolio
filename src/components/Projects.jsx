@@ -1,55 +1,61 @@
 const Projects = () => {
   return (
     <>
-      <div className="bg-gray-900">
-        <div className="py-[2%] flex flex-col items-center max-w-7xl mx-auto">
-          <h1 className="text-7xl text-cyan-400 font-bold">Personal Projects</h1>
-          <div className="flex gap-30 mt-[8%]">
-            <a className="flex flex-col bg-gray-950 rounded-xl card" href="https://pursuit-pi.vercel.app" target="_blank">
+      <div className="bg-[#ddd9c9]">
+        <div className="py-[2%] flex flex-col items-center cormorant-font max-w-5xl mx-[10%] md:mx-auto">
+          <h1 className="text-7xl font-bold text-black">Personal Projects</h1>
+          <div className="flex flex-col gap-30 mt-[8%] text-black">
+            <div className="flex gap-5">
               <img src="/Pursuit.png"
-                className="rounded-t-xl w-full" />
-              <div className="p-[3%] flex flex-col justify-center gap-4 relative" >
-                <a href="https://pursuit-pi.vercel.app" target="_blank"
-                  className="text-5xl font-bold hover:underline">Pursuit</a>
-                <p className="text-xl">A social media app where people can share their goals and achievements. Currently under development</p>
-                <div className="flex flex-col gap-3">
-                  <div className="flex gap-3 mt-5">
-                    <p className="border-2 border-cyan-400 rounded-2xl px-2 text-cyan-400">React.js</p>
-                    <p className="border-2 border-green-400 rounded-2xl px-2 text-green-400">MongoDB</p>
-                    <p className="border-2 border-emerald-400 rounded-2xl px-2 text-emerald-400">Node.js</p>
-                    <p className="border-2 border-white rounded-2xl px-2 text-white">Express.js</p>
-                    <p className="border-2 border-cyan-400 rounded-2xl px-2 text-cyan-400 size-fit">TailwindCSS</p>
+                className="w-[350px] h-[350px] img object-scale-down bg-neutral-900 rounded-xl" />
+              <div className="p-5 flex flex-col justify-evenly border-4 border-neutral-900 rounded-xl">
+                <div>
+                  <a href="https://pursuit-pi.vercel.app" target="_blank"
+                    className="text-5xl font-bold italic hover:underline">Pursuit</a>
+                  <p className="text-xl/tight text-justify mt-5">A social media platform designed for users to share their goals, track progress, and celebrate achievements together. Currently in development.</p>
+                </div>
+                <div className="flex flex-col">
+                  <p className="text-2xl">Tools used</p>
+                  <div className="flex gap-2 text-xl">
+                    <p>React.js</p>
+                    <p>Node.js</p>
+                    <p>MongoDB</p>
+                    <p>Express.js</p>
+                    <p>TailwindCSS</p>
                   </div>
                 </div>
-                <a href="https://github.com/jpbascon/pursuit">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 1024 1024"
-                    className="absolute right-3 top-3">
-                    <path fill="#22d3ee" d="M574 665.4a8.03 8.03 0 0 0-11.3 0L446.5 781.6c-53.8 53.8-144.6 59.5-204 0c-59.5-59.5-53.8-150.2 0-204l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3l-39.8-39.8a8.03 8.03 0 0 0-11.3 0L191.4 526.5c-84.6 84.6-84.6 221.5 0 306s221.5 84.6 306 0l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3zm258.6-474c-84.6-84.6-221.5-84.6-306 0L410.3 307.6a8.03 8.03 0 0 0 0 11.3l39.7 39.7c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c53.8-53.8 144.6-59.5 204 0c59.5 59.5 53.8 150.2 0 204L665.3 562.6a8.03 8.03 0 0 0 0 11.3l39.8 39.8c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c84.5-84.6 84.5-221.5 0-306.1M610.1 372.3a8.03 8.03 0 0 0-11.3 0L372.3 598.7a8.03 8.03 0 0 0 0 11.3l39.6 39.6c3.1 3.1 8.2 3.1 11.3 0l226.4-226.4c3.1-3.1 3.1-8.2 0-11.3z" />
+                <a href="https://github.com/jpbascon/Pursuit" target="_blank" className="size-fit">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M18.88 1.099C18.147.366 17.265 0 16.233 0H3.746C2.714 0 1.832.366 1.099 1.099C.366 1.832 0 2.714 0 3.746v12.487c0 1.032.366 1.914 1.099 2.647c.733.733 1.615 1.099 2.647 1.099H6.66c.19 0 .333-.007.429-.02a.504.504 0 0 0 .286-.169c.095-.1.143-.245.143-.435l-.007-.885c-.004-.564-.006-1.01-.006-1.34l-.3.052c-.19.035-.43.05-.721.046a5.555 5.555 0 0 1-.904-.091a2.026 2.026 0 0 1-.872-.39a1.651 1.651 0 0 1-.572-.8l-.13-.3a3.25 3.25 0 0 0-.41-.663c-.186-.243-.375-.407-.566-.494l-.09-.065a.956.956 0 0 1-.17-.156a.723.723 0 0 1-.117-.182c-.026-.061-.004-.111.065-.15c.07-.04.195-.059.378-.059l.26.04c.173.034.388.138.643.311a2.1 2.1 0 0 1 .631.677c.2.355.44.626.722.813c.282.186.566.28.852.28c.286 0 .533-.022.742-.065a2.59 2.59 0 0 0 .585-.196c.078-.58.29-1.028.637-1.34a8.907 8.907 0 0 1-1.333-.234a5.314 5.314 0 0 1-1.223-.507a3.5 3.5 0 0 1-1.047-.872c-.277-.347-.505-.802-.683-1.365c-.177-.564-.266-1.215-.266-1.952c0-1.049.342-1.942 1.027-2.68c-.32-.788-.29-1.673.091-2.652c.252-.079.625-.02 1.119.175c.494.195.856.362 1.086.5c.23.14.414.257.553.352a9.233 9.233 0 0 1 2.497-.338c.859 0 1.691.113 2.498.338l.494-.312a6.997 6.997 0 0 1 1.197-.572c.46-.174.81-.221 1.054-.143c.39.98.424 1.864.103 2.653c.685.737 1.028 1.63 1.028 2.68c0 .737-.089 1.39-.267 1.957c-.177.568-.407 1.023-.689 1.366a3.65 3.65 0 0 1-1.053.865c-.42.234-.828.403-1.223.507a8.9 8.9 0 0 1-1.333.235c.45.39.676 1.005.676 1.846v3.11c0 .147.021.266.065.357a.36.36 0 0 0 .208.189c.096.034.18.056.254.064c.074.01.18.013.318.013h2.914c1.032 0 1.914-.366 2.647-1.099c.732-.732 1.099-1.615 1.099-2.647V3.746c0-1.032-.367-1.914-1.1-2.647z" />
                   </svg>
                 </a>
               </div>
-            </a>
-            <a className="flex flex-col bg-gray-950 rounded-xl card" href="https://react-1-0-2.vercel.app/" target="_blank">
+            </div>
+            <div className="flex gap-5">
               <img src="/Movie%20Explorer.png"
-                className="rounded-t-xl w-full" />
-              <div className="p-[3%] flex flex-col justify-center relative gap-4">
-                <a href="https://react-1-0-2.vercel.app/" target="_blank"
-                  className="text-5xl font-bold hover:underline">Movie Explorer</a>
-                <p className="text-xl">Movie application with API integration using React.js, Tailwind CSS, Javascript, and Appwrite. Implemented trendings based on user's interaction.</p>
-                <div className="flex gap-3 mt-5">
-                  <p className="border-2 border-cyan-400 rounded-2xl px-2 text-cyan-400">React.js</p>
-                  <p className="border-2 border-yellow-400 rounded-2xl px-2 text-yellow-400">JavaScript</p>
-                  <p className="border-2 border-pink-400 rounded-2xl px-2 text-pink-400">Appwrite</p>
-                  <p className="border-2 border-cyan-400 rounded-2xl px-2 text-cyan-400 size-fit">TailwindCSS</p>
+                className="w-[350px] h-[350px] img object-scale-down bg-[#0e1245] rounded-xl" />
+              <div className="p-5 flex flex-col justify-evenly border-4 border-[#0e1245] rounded-xl">
+                <div>
+                  <a href="https://react-1-0-2.vercel.app/" target="_blank"
+                    className="text-5xl font-bold italic hover:underline">Movie Explorer</a>
+                  <p className="text-xl/tight text-justify mt-5">A dynamic web application that lets users explore and discover their favorite movies, powered by real-time data integration with TMDB’s API for a seamless browsing experience.</p>
                 </div>
-                <a href="https://github.com/jpbascon/React-1.0.2">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 1024 1024"
-                    className="absolute right-3 top-3">
-                    <path fill="#22d3ee" d="M574 665.4a8.03 8.03 0 0 0-11.3 0L446.5 781.6c-53.8 53.8-144.6 59.5-204 0c-59.5-59.5-53.8-150.2 0-204l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3l-39.8-39.8a8.03 8.03 0 0 0-11.3 0L191.4 526.5c-84.6 84.6-84.6 221.5 0 306s221.5 84.6 306 0l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3zm258.6-474c-84.6-84.6-221.5-84.6-306 0L410.3 307.6a8.03 8.03 0 0 0 0 11.3l39.7 39.7c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c53.8-53.8 144.6-59.5 204 0c59.5 59.5 53.8 150.2 0 204L665.3 562.6a8.03 8.03 0 0 0 0 11.3l39.8 39.8c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c84.5-84.6 84.5-221.5 0-306.1M610.1 372.3a8.03 8.03 0 0 0-11.3 0L372.3 598.7a8.03 8.03 0 0 0 0 11.3l39.6 39.6c3.1 3.1 8.2 3.1 11.3 0l226.4-226.4c3.1-3.1 3.1-8.2 0-11.3z" />
+                <div className="flex flex-col">
+                  <p className="text-2xl">Tools used</p>
+                  <div className="flex gap-2 text-xl">
+                    <p>React.js</p>
+                    <p>JavaScript</p>
+                    <p>Appwrite</p>
+                    <p>TailwindCSS</p>
+                  </div>
+                </div>
+                <a href="https://github.com/jpbascon/React-1.0.2" target="_blank" className="size-fit">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M18.88 1.099C18.147.366 17.265 0 16.233 0H3.746C2.714 0 1.832.366 1.099 1.099C.366 1.832 0 2.714 0 3.746v12.487c0 1.032.366 1.914 1.099 2.647c.733.733 1.615 1.099 2.647 1.099H6.66c.19 0 .333-.007.429-.02a.504.504 0 0 0 .286-.169c.095-.1.143-.245.143-.435l-.007-.885c-.004-.564-.006-1.01-.006-1.34l-.3.052c-.19.035-.43.05-.721.046a5.555 5.555 0 0 1-.904-.091a2.026 2.026 0 0 1-.872-.39a1.651 1.651 0 0 1-.572-.8l-.13-.3a3.25 3.25 0 0 0-.41-.663c-.186-.243-.375-.407-.566-.494l-.09-.065a.956.956 0 0 1-.17-.156a.723.723 0 0 1-.117-.182c-.026-.061-.004-.111.065-.15c.07-.04.195-.059.378-.059l.26.04c.173.034.388.138.643.311a2.1 2.1 0 0 1 .631.677c.2.355.44.626.722.813c.282.186.566.28.852.28c.286 0 .533-.022.742-.065a2.59 2.59 0 0 0 .585-.196c.078-.58.29-1.028.637-1.34a8.907 8.907 0 0 1-1.333-.234a5.314 5.314 0 0 1-1.223-.507a3.5 3.5 0 0 1-1.047-.872c-.277-.347-.505-.802-.683-1.365c-.177-.564-.266-1.215-.266-1.952c0-1.049.342-1.942 1.027-2.68c-.32-.788-.29-1.673.091-2.652c.252-.079.625-.02 1.119.175c.494.195.856.362 1.086.5c.23.14.414.257.553.352a9.233 9.233 0 0 1 2.497-.338c.859 0 1.691.113 2.498.338l.494-.312a6.997 6.997 0 0 1 1.197-.572c.46-.174.81-.221 1.054-.143c.39.98.424 1.864.103 2.653c.685.737 1.028 1.63 1.028 2.68c0 .737-.089 1.39-.267 1.957c-.177.568-.407 1.023-.689 1.366a3.65 3.65 0 0 1-1.053.865c-.42.234-.828.403-1.223.507a8.9 8.9 0 0 1-1.333.235c.45.39.676 1.005.676 1.846v3.11c0 .147.021.266.065.357a.36.36 0 0 0 .208.189c.096.034.18.056.254.064c.074.01.18.013.318.013h2.914c1.032 0 1.914-.366 2.647-1.099c.732-.732 1.099-1.615 1.099-2.647V3.746c0-1.032-.367-1.914-1.1-2.647z" />
                   </svg>
                 </a>
               </div>
-            </a>
+            </div>
           </div>
         </div>
       </div>
