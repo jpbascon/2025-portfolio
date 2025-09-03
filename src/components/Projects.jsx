@@ -2,12 +2,12 @@ const Projects = () => {
   return (
     <>
       <div className="bg-[#ddd9c9]">
-        <div className="py-[2%] flex flex-col items-center cormorant-font max-w-5xl mx-[10%] md:mx-auto">
+        <div className="py-[5%] flex flex-col items-center cormorant-font max-w-5xl mx-[10%] md:mx-auto">
           <h1 className="text-7xl font-bold text-black">Personal Projects</h1>
           <div className="flex flex-col gap-30 mt-[8%] text-black">
             <div className="flex gap-5">
               <img src="/Pursuit.png"
-                className="w-[350px] h-[350px] img object-scale-down bg-neutral-900 rounded-xl" />
+                className="w-[350px] h-[350px] object-scale-down bg-neutral-900 rounded-xl" />
               <div className="p-5 flex flex-col justify-evenly border-4 border-neutral-900 rounded-xl">
                 <div>
                   <a href="https://pursuit-pi.vercel.app" target="_blank"
@@ -16,7 +16,7 @@ const Projects = () => {
                 </div>
                 <div className="flex flex-col">
                   <p className="text-2xl">Tools used</p>
-                  <div className="flex gap-2 text-xl">
+                  <div className="flex gap-2 text-xl font-bold">
                     <p>React.js</p>
                     <p>Node.js</p>
                     <p>MongoDB</p>
@@ -33,7 +33,7 @@ const Projects = () => {
             </div>
             <div className="flex gap-5">
               <img src="/Movie%20Explorer.png"
-                className="w-[350px] h-[350px] img object-scale-down bg-[#0e1245] rounded-xl" />
+                className="w-[350px] h-[350px] object-scale-down bg-[#0e1245] rounded-xl" />
               <div className="p-5 flex flex-col justify-evenly border-4 border-neutral-900 rounded-xl">
                 <div>
                   <a href="https://react-1-0-2.vercel.app/" target="_blank"
@@ -42,7 +42,7 @@ const Projects = () => {
                 </div>
                 <div className="flex flex-col">
                   <p className="text-2xl">Tools used</p>
-                  <div className="flex gap-2 text-xl">
+                  <div className="flex gap-2 text-xl font-bold">
                     <p>React.js</p>
                     <p>JavaScript</p>
                     <p>Appwrite</p>

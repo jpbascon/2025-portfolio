@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <>
-      <div className="flex py-[3%] max-w-7xl mx-auto relative">
+      <div className="flex py-[2%] max-w-7xl mx-auto relative">
         <div className="flex cormorant-font">
           <div className="flex flex-col gap-10">
             <h1 className="text-4xl">About me</h1>
@@ -19,7 +19,7 @@ const About = () => {
                   My interest in web development sparked during my college internship {"(March of 2025)"} and I've been continuously finding ways to learn new technologies to further my capabilities.
                 </p>
                 <p className="text-lg funnel-font">
-                  Experience is where I but when opportunities arise, I do my best to seize them and quickly shift my focus to learning, and I'm excited to uncover the potential within me that has yet to be seen.
+                  Experience is what I lack but when opportunities arise, I do my best to seize them and quickly shift my focus to learning. I'm excited to uncover the potential within me that has yet to be seen.
                 </p>
               </div>
             </div>

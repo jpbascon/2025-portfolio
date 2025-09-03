@@ -9,7 +9,7 @@ const Home = () => {
               <p className="text-justify text-2xl funnel-font">Web Developer</p>
             </div>
             <div className="flex gap-5 mt-15">
-              <button className="border-1 border-[#93595b] hover:bg-[#93595b] px-10 py-3 text-xl rounded-sm transition-all">contact</button>
+              <button className="px-10 py-5 text-[#93595b] border-1 border-[#93595b] hover:bg-[#93595b] hover:text-white text-xl rounded-sm transition-all">Contact</button>
             </div>
           </div>
           <div className="max-w-[580px] top-[-.5%] left-[25%] overflow-hidden z-1 pointer-none absolute inset-y-0">
