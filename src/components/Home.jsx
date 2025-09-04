@@ -1,32 +1,65 @@
+import { useEffect, useState } from "react";
+
 const Home = () => {
+  const [first, setFirst] = useState(false);
+  const [second, setSecond] = useState(false);
+  const [third, setThird] = useState(false);
+  const [fourth, setFourth] = useState(false);
+  const [fifth, setFifth] = useState(false);
+  const [sixth, setSixth] = useState(false);
+
+  useEffect(() => {
+    setFirst(true);
+    setTimeout(() => setSecond(true), 400);
+    setTimeout(() => setThird(true), 600);
+    setTimeout(() => setFourth(true), 800);
+    setTimeout(() => setFifth(true), 1000);
+    setTimeout(() => setSixth(true), 1200);
+  }, [])
   return (
     <>
-      <div className="flex pt-50 pb-[10%] px-[5%] sm:max-w-4xl md:max-w-7xl mx-auto relative" id="home">
-        <div className="flex md:gap-[35%] px-[5%] justify-center items-stretch">
-          <div className="flex flex-col w-full relative z-10">
-            <div className="flex flex-col gap-5">
-              <h1 className="text-7xl font-bold cormorant-font">Hey,<br /> I'm <span className="text-[#93595b]">Jason Basconcillo</span></h1>
-              <p className="text-justify text-2xl funnel-font">Web Developer</p>
+      <div className="relative">
+        <div className="flex pt-30 md:pt-50 pb-[10%] max-w-7xl mx-auto" id="home">
+          <div className="flex flex-col px-10 md:flex-row gap-10 md:gap-[30%] justify-center items-stretch">
+            <div className="flex flex-col w-full relative z-10">
+              <div className="flex flex-col gap-5">
+                <div className="text-6xl lg:text-7xl font-bold cormorant-font">
+                  <h1 className={` transition-opacity duration-800 ${second ? "opacity-100" : "opacity-0"}`}>Hey</h1>
+                  <p className={` transition-opacity duration-800 ${third ? "opacity-100" : "opacity-0"}`}>I'm <span className="text-[#93595b]">Jason</span></p>
+                  <p className={`text-[#93595b]  transition-opacity duration-800 ${fourth ? "opacity-100" : "opacity-0 "}`}>Basconcillo</p>
+                </div>
+                <p className={`text-xl lg:text-2xl text-justify funnel-font  transition-opacity duration-800 ${fifth ? "opacity-100" : "opacity-0"}`}>Web Developer</p>
+              </div>
+              <div className="hidden md:flex gap-5 mt-15">
+                <a href="#contact"
+                  className={`text-lg lg:text-xl px-10 py-5 text-[#93595b] border-1 border-[#93595b] hover:bg-[#93595b] hover:text-white rounded-sm
+                   transition-opacity duration-800 ${sixth ? "opacity-100" : "opacity-0"}`}>
+                  Contact
+                </a>
+              </div>
             </div>
-            <div className="flex gap-5 mt-15">
-              <a href="#contact"
-                className="px-10 py-5 text-[#93595b] border-1 border-[#93595b] hover:bg-[#93595b] hover:text-white text-xl rounded-sm transition-all">
-                Contact</a>
+            <div className="gap-5 flex flex-col justify-center w-full relative z-10">
+              <div className="hidden md:inline-block text-5xl font-bold funnel-font">
+                <h2 className={`transition-opacity duration-800 ${second ? "opacity-100" : "opacity-0"}`}>A web developer</h2>
+                <p className={`transition-opacity duration-800 ${third ? "opacity-100" : "opacity-0"}`}>based in</p>
+                <p className={`transition-opacity duration-800 ${fourth ? "opacity-100" : "opacity-0"}`}>Philippines</p>
+              </div>
+              <p className={`text-xl text-justify transition-opacity duration-800 ${fifth ? "opacity-100" : "opacity-0"}`}>
+                Passionate in web development. Pursuing to become a full-stack developer.
+                I'm looking for a company to contribute my skills and grow with a collaborative team, and help deliver impactful digital experiences.
+              </p>
             </div>
-          </div>
-          <div className="gap-5 flex flex-col justify-center w-full relative z-10">
-            <h2 className="text-5xl font-bold funnel-font">A web developer based in Philippines</h2>
-            <p className="text-xl text-justify">
-              Passionate in web development. Pursuing to become a full-stack developer.
-              I'm looking for a company to contribute my skills and grow with a collaborative team, and help deliver impactful digital experiences.
-            </p>
-          </div>
-          <div className="hidden md:inline-block max-w-[580px] top-[2%] lg:left-[25%] xl:left-[26%] overflow-hidden z-1 pointer-none absolute inset-y-0">
-            <img src="jasonguitar7.png"
-              className="brightness-100 object-fill" />
           </div>
         </div>
-      </div>
+        <div className="hidden md:inline-block w-[380px] absolute top-120 left-[48%] -translate-x-1/2 -translate-y-1/2 z-1 pointer-events-none">
+          <img
+            src="jasonguitar7.png"
+            alt="Jason holding his guitar facing the camera"
+            loading="eager"
+            className={`object-contain w-full h-auto transition-opacity duration-800 ${first ? "opacity-100" : "opacity-0"}`}
+          />
+        </div>
+      </div >
     </>
   )
 }

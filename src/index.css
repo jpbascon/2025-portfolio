@@ -23,8 +23,8 @@ body {
   font-style: normal;
 }
 
-.pursuit-font {
-  font-family: 'system-ui, -apple-system', sans-serif;
+.active {
+  pointer-events: none;
 }
 
 button {
@@ -60,12 +60,59 @@ button {
   transform: translateY(-5px);
 }
 
-@keyframes hovered {
+.to-right {
+  transition: opacity .9s ease-in-out;
+  animation: right .7s ease-in-out;
+}
+
+.to-left {
+  transition: opacity .9s ease-in-out;
+  animation: left .7s ease-in-out;
+}
+
+.to-up {
+  transition: opacity 1s ease-in-out;
+  animation: up .8s ease-in-out;
+}
+
+@keyframes right {
   from {
-    transform: translateY(0);
+    transform: translateX(-60px);
   }
 
   to {
-    transform: translateY(5px);
+    transform: translateX(0);
+  }
+}
+
+@keyframes left {
+  from {
+    transform: translateX(60px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes up {
+  0% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-10px);
+  }
+
+  60% {
+    transform: translateY(1px);
+  }
+
+  80% {
+    transform: translateY(-1px);
+  }
+
+  100% {
+    transform: translateY(0);
   }
 }

@@ -8,15 +8,37 @@ import Footer from './components/Footer';
 import Skills from './components/Skills';
 
 function App() {
+  const [hamburger, setHamburger] = useState(true);
+  const [dropDownOpen, setDropDownOpen] = useState(false);
+
+  const HandleDropDown = () => {
+    if (dropDownOpen) {
+      setDropDownOpen(false);
+      setHamburger(true);
+    } else {
+      setHamburger(false);
+      setDropDownOpen(true);
+    }
+  }
+  const OutsideClicked = () => {
+    if (dropDownOpen) {
+      setDropDownOpen(false);
+      setHamburger(true);
+    }
+  }
   return (
     <>
-      <Navbar />
-      <Home />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
-      <Footer />
+      <Navbar hamburger={hamburger} HandleDropDown={HandleDropDown} dropDownOpen={dropDownOpen} />
+      <div onClick={() => OutsideClicked()}>
+        <div className={`${dropDownOpen && "transition-all brightness-65 blur-xs pointer-events-none"}`}>
+          <Home />
+          <About />
+          <Skills />
+          <Projects />
+          <Contact />
+          <Footer />
+        </div>
+      </div>
     </>
   )
 }
