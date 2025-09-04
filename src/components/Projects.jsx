@@ -18,20 +18,20 @@ const Projects = () => {
     <>
       <div className="py-5 px-10 border-b-1 border-b-[#93595b]" id="projects">
         <div className="flex flex-col items-center cormorant-font max-w-6xl mx-auto">
-          <h1 className="text-5xl font-bold text-white w-full text-start">Personal Projects</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-white w-full text-start">Personal Projects</h1>
           <div className="flex flex-col gap-10 mt-15 lg:mt-20 text-white max-w-4xl mx-auto">
             <div className={`p-5 flex flex-col justify-evenly border-2 gap-4 border-white rounded-xl transition-opacity duration-800 ${first ? "opacity-100" : "opacity-0"}`}>
               <div>
                 <a href="https://pursuit-pi.vercel.app" target="_blank"
-                  className="text-5xl font-bold italic navlink relative">Pursuit</a>
+                  className="text-4xl md:text-5xl font-bold italic navlink relative">Pursuit</a>
                 <div className="flex items-start justify-center w-[10%] mt-3">
                   <span className="flex-1 border-l border-1 border-[#93595b]"></span>
                 </div>
-                <p className="text-xl/tight text-justify mt-5">A social media platform designed for users to share their goals, track progress, and celebrate achievements together. Currently in development.</p>
+                <p className="text-base md:text-xl/tight text-justify mt-5">A social media platform designed for users to share their goals, track progress, and celebrate achievements together. Currently in development.</p>
               </div>
               <div className="flex flex-col">
-                <p className="text-2xl">Tools used</p>
-                <div className="flex gap-2 text-xl font-bold">
+                <p className="text:xl md:text-2xl">Tools used</p>
+                <div className="flex gap-2 text-lg md:text-xl font-bold">
                   <p>React.js MongoDB Express Node.js TailwindCSS</p>
                 </div>
               </div>
@@ -45,15 +45,15 @@ const Projects = () => {
             <div className={`p-5 flex flex-col justify-evenly border-2 gap-4 border-white rounded-xl transition-opacity duration-800 ${second ? "opacity-100" : "opacity-0"}`}>
               <div>
                 <a href="https://react-1-0-2.vercel.app/" target="_blank"
-                  className="text-5xl font-bold italic navlink relative">Movie Explorer</a>
+                  className="text-4xl md:text-5xl font-bold italic navlink relative">Movie Explorer</a>
                 <div className="flex items-start justify-center w-[10%] mt-3">
                   <span className="flex-1 border-l border-1 border-[#93595b]"></span>
                 </div>
                 <p className="text-xl/tight text-justify mt-5">A dynamic web application that lets users explore and discover their favorite movies, powered by real-time data integration with TMDB’s API for a seamless browsing experience.</p>
               </div>
               <div className="flex flex-col">
-                <p className="text-2xl">Tools used</p>
-                <div className="flex gap-2 text-xl font-bold">
+                <p className="text-xl md:text-2xl">Tools used</p>
+                <div className="flex gap-2 text-lg md:text-xl font-bold">
                   <p>React.js JavaScript Appwrite TailwindCSS</p>
                 </div>
               </div>

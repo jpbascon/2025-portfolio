@@ -23,7 +23,7 @@ const Home = () => {
           <div className="flex flex-col px-10 md:flex-row gap-10 md:gap-[30%] justify-center items-stretch">
             <div className="flex flex-col w-full relative z-10">
               <div className="flex flex-col gap-5">
-                <div className="text-6xl lg:text-7xl font-bold cormorant-font">
+                <div className="text-6xl md:text-7xl font-bold cormorant-font">
                   <h1 className={` transition-opacity duration-800 ${second ? "opacity-100" : "opacity-0"}`}>Hey</h1>
                   <p className={` transition-opacity duration-800 ${third ? "opacity-100" : "opacity-0"}`}>I'm <span className="text-[#93595b]">Jason</span></p>
                   <p className={`text-[#93595b]  transition-opacity duration-800 ${fourth ? "opacity-100" : "opacity-0 "}`}>Basconcillo</p>
@@ -39,12 +39,12 @@ const Home = () => {
               </div>
             </div>
             <div className="gap-5 flex flex-col justify-center w-full relative z-10">
-              <div className="hidden md:inline-block text-5xl font-bold funnel-font">
+              <div className="hidden md:inline-block text-4xl md:text-5xl font-bold funnel-font">
                 <h2 className={`transition-opacity duration-800 ${second ? "opacity-100" : "opacity-0"}`}>A web developer</h2>
                 <p className={`transition-opacity duration-800 ${third ? "opacity-100" : "opacity-0"}`}>based in</p>
                 <p className={`transition-opacity duration-800 ${fourth ? "opacity-100" : "opacity-0"}`}>Philippines</p>
               </div>
-              <p className={`text-xl text-justify transition-opacity duration-800 ${fifth ? "opacity-100" : "opacity-0"}`}>
+              <p className={`text-base md:text-lg  text-justify transition-opacity duration-800 ${fifth ? "opacity-100" : "opacity-0"}`}>
                 Passionate in web development. Pursuing to become a full-stack developer.
                 I'm looking for a company to contribute my skills and grow with a collaborative team, and help deliver impactful digital experiences.
               </p>
