@@ -1,17 +1,20 @@
 const Projects = () => {
   return (
     <>
-      <div className="bg-[#ddd9c9]">
-        <div className="py-[5%] flex flex-col items-center cormorant-font max-w-5xl mx-[10%] md:mx-auto">
-          <h1 className="text-7xl font-bold text-black">Personal Projects</h1>
-          <div className="flex flex-col gap-30 mt-[8%] text-black">
+      <div className="border-b-1 border-b-[#93595b]">
+        <div className="py-[2%] flex flex-col items-center cormorant-font max-w-6xl mx-[10%] md:mx-auto">
+          <h1 className="text-5xl font-bold text-white w-full text-start">Personal Projects</h1>
+          <div className="flex flex-col gap-30 mt-[8%] text-white">
             <div className="flex gap-5">
               <img src="/Pursuit.png"
-                className="w-[350px] h-[350px] object-scale-down bg-neutral-900 rounded-xl" />
-              <div className="p-5 flex flex-col justify-evenly border-4 border-neutral-900 rounded-xl">
+                className="w-[350px] h-[350px] object-scale-down bg-[#020202] rounded-xl" />
+              <div className="p-5 flex flex-col justify-evenly border-2 border-white rounded-xl">
                 <div>
                   <a href="https://pursuit-pi.vercel.app" target="_blank"
                     className="text-5xl font-bold italic hover:underline">Pursuit</a>
+                  <div className="flex items-start justify-center w-[10%] mt-3">
+                    <span className="flex-1 border-l border-1 border-[#93595b]"></span>
+                  </div>
                   <p className="text-xl/tight text-justify mt-5">A social media platform designed for users to share their goals, track progress, and celebrate achievements together. Currently in development.</p>
                 </div>
                 <div className="flex flex-col">
@@ -33,11 +36,14 @@ const Projects = () => {
             </div>
             <div className="flex gap-5">
               <img src="/Movie%20Explorer.png"
-                className="w-[350px] h-[350px] object-scale-down bg-[#0e1245] rounded-xl" />
-              <div className="p-5 flex flex-col justify-evenly border-4 border-neutral-900 rounded-xl">
+                className="w-[350px] h-[350px] object-scale-down bg-[#030014] rounded-xl" />
+              <div className="p-5 flex flex-col justify-evenly border-2 border-white rounded-xl">
                 <div>
                   <a href="https://react-1-0-2.vercel.app/" target="_blank"
                     className="text-5xl font-bold italic hover:underline">Movie Explorer</a>
+                  <div className="flex items-start justify-center w-[10%] mt-3">
+                    <span className="flex-1 border-l border-1 border-[#93595b]"></span>
+                  </div>
                   <p className="text-xl/tight text-justify mt-5">A dynamic web application that lets users explore and discover their favorite movies, powered by real-time data integration with TMDB’s API for a seamless browsing experience.</p>
                 </div>
                 <div className="flex flex-col">

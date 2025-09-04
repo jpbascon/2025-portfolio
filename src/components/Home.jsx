@@ -5,14 +5,14 @@ const Home = () => {
         <div className="flex px-[5%] md:gap-[35%] justify-center items-stretch">
           <div className="flex flex-col w-full relative z-10">
             <div className="flex flex-col gap-5">
-              <h1 className="text-7xl font-bold cormorant-font">Hey,<br /> I'm <span className="text-[#93595b]">Jason</span></h1>
+              <h1 className="text-7xl font-bold cormorant-font">Hey,<br /> I'm <span className="text-[#93595b]">Jason Basconcillo</span></h1>
               <p className="text-justify text-2xl funnel-font">Web Developer</p>
             </div>
             <div className="flex gap-5 mt-15">
               <button className="px-10 py-5 text-[#93595b] border-1 border-[#93595b] hover:bg-[#93595b] hover:text-white text-xl rounded-sm transition-all">Contact</button>
             </div>
           </div>
-          <div className="max-w-[580px] top-[-.5%] left-[25%] overflow-hidden z-1 pointer-none absolute inset-y-0">
+          <div className="max-w-[580px] top-[2%] left-[26%] overflow-hidden z-1 pointer-none absolute inset-y-0">
             <img src="jasonguitar7.png"
               className="brightness-100 object-fill" />
           </div>

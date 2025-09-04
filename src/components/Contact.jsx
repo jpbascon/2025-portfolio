@@ -1,13 +1,11 @@
 const Contact = () => {
   return (
     <>
-      <div className="relative">
-        <img src="typing.jpg"
-          className="absolute inset-0 w-full h-full object-cover brightness-25 pointer-events-none blur-sm" />
-        <div className="flex py-[10%] max-w-7xl mx-auto relative z-10 text-white">
+      <div className="border-b-1 border-b-[#93595b]">
+        <div className="flex py-[5%] max-w-7xl mx-auto relative z-10 text-white">
           <div className="gap-5 flex flex-col items-center w-full">
             <h1 className="text-5xl cormorant-font">Interested in what I do?</h1>
-            <p className="text-xl funnel-font">Feel free to reach out—I'd love to hear from you</p>
+            <p className="text-xl funnel-font">Feel free to reach out — I'd love to hear from you</p>
             <div className="flex gap-3">
               <a href="https://facebook.com/a.jxson" target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 1024 1024">
@@ -21,11 +19,11 @@ const Contact = () => {
               </a>
             </div>
             <div className="flex gap-4 items-center justify-center min-w-[25%]">
-              <span className="flex-1 border-l border-1"></span>
+              <span className="flex-1 border-l border-1 border-[#93595b]"></span>
               <p>or</p>
-              <span className="flex-1 border-l border-1"></span>
+              <span className="flex-1 border-l border-1 border-[#93595b]"></span>
             </div>
-            <p className="text-3xl funnel-font">basconj50@gmail.com</p>
+            <p className="text-3xl funnel-font font-bold">basconj50@gmail.com</p>
           </div>
         </div>
       </div>
