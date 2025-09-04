@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <>
-      <div className="border-y-1 border-y-[#93595b]">
+      <div className="border-y-1 border-y-[#93595b]" id="about">
         <div className="flex py-[2%] max-w-6xl mx-auto relative">
           <div className="flex cormorant-font">
             <div className="flex gap-10">
@@ -16,10 +16,11 @@ const About = () => {
                       become my instrument through which I express my creativity and ambition.
                     </p>
                     <p className="text-lg funnel-font">
-                      My interest in web development sparked during my college internship {"(March of 2025)"} and I've been continuously finding ways to learn new technologies to further my capabilities.
+                      My interest in web development sparked at the age of 20 and I've been continuously finding ways to learn new technologies to further my capabilities.
                     </p>
                     <p className="text-lg funnel-font">
-                      Experience is what I lack but when opportunities arise, I do my best to seize them and quickly shift my focus to learning — and I'm excited to uncover the potential within me that has yet to be seen.
+                      Web development helped me realized that learning something you're passionate about can be truly enjoyable. Every lesson I've gone through has fueled my growth — <br />
+                      and I'm excited to unveil the potential within me that has yet to be seen.
                     </p>
                   </div>
                 </div>

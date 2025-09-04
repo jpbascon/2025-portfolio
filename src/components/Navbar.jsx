@@ -1,19 +1,36 @@
+import { useState, useEffect } from "react";
+
 const Navbar = () => {
+  const [showNavbar, setShowNavbar] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > lastScrollY) setShowNavbar(false);
+      else setShowNavbar(true);
+      setLastScrollY(window.scrollY);
+    }
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  })
   return (
     <>
-      <div className="navbar sticky">
-        <div className="flex items-center justify-between mx-[15%] sticky inset-x-0 top-0 h-[80px] z-500">
+      <div className={`navbar bg-neutral-900 fixed inset-x-0 top-0 z-50 transition-transform duration-300
+        ${showNavbar ? "translate-y-0" : "-translate-y-full"}`}>
+        <div className={`h-[80px] mx-[15%] flex items-center justify-between transition-transform duration-300
+          ${showNavbar ? "translate-y-0" : "-translate-y-full"}`}>
           <div>
-            <p className="font-bold text-4xl funnel-font">Jason</p>
+            <a href="#"
+              className="font-bold text-4xl funnel-font">Jason</a>
           </div>
           <div className="flex gap-7 funnel-font">
-            <p>Home</p>
-            <p>Projects</p>
-            <p>About</p>
-            <p>Contact</p>
+            <a href="#" className="navlink relative">home</a>
+            <a href="#about" className="navlink relative">about</a>
+            <a href="#projects" className="navlink relative">projects</a>
+            <a href="#contact" className="navlink relative">contact</a>
           </div>
         </div>
-      </div >
+      </div>
     </>
   )
 }
