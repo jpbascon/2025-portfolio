@@ -19,11 +19,11 @@ const Home = () => {
   return (
     <>
       <div className="relative">
-        <div className="flex pt-30 md:pt-50 pb-[10%] max-w-7xl mx-auto" id="home">
-          <div className="flex flex-col px-10 md:flex-row gap-10 md:gap-[30%] justify-center items-stretch">
+        <div className="flex pt-30 md:pt-60 pb-30 max-w-7xl mx-auto" id="home">
+          <div className="flex flex-col px-15 md:flex-row gap-10 md:gap-[30%] justify-center items-stretch">
             <div className="flex flex-col w-full relative z-10">
               <div className="flex flex-col gap-5">
-                <div className="text-6xl md:text-7xl font-bold cormorant-font">
+                <div className="text-5xl md:text-6xl font-bold cormorant-font">
                   <h1 className={` transition-opacity duration-800 ${second ? "opacity-100" : "opacity-0"}`}>Hey</h1>
                   <p className={` transition-opacity duration-800 ${third ? "opacity-100" : "opacity-0"}`}>I'm <span className="text-[#93595b]">Jason</span></p>
                   <p className={`text-[#93595b]  transition-opacity duration-800 ${fourth ? "opacity-100" : "opacity-0 "}`}>Basconcillo</p>
@@ -51,7 +51,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="hidden md:inline-block w-[380px] absolute top-120 left-[48%] -translate-x-1/2 -translate-y-1/2 z-1 pointer-events-none">
+        <div className="hidden md:inline-block w-[370px] absolute top-125 left-[47%] -translate-x-1/2 -translate-y-1/2 z-1 pointer-events-none">
           <img
             src="jasonguitar7.png"
             alt="Jason holding his guitar facing the camera"
