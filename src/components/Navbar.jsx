@@ -17,7 +17,7 @@ const Navbar = ({ HandleDropDown, hamburger, dropDownOpen }) => {
     <>
       <div className={`navbar bg-neutral-900 fixed inset-x-0 top-0 z-50 transition-transform duration-300
         ${showNavbar ? "translate-y-0" : "-translate-y-full"}`}>
-        <div className={`h-[50px] mx-[15%] flex items-center justify-between transition-transform duration-300
+        <div className={`h-[80px] md:h-[50px] mx-[15%] flex items-center justify-between transition-transform duration-300
           ${showNavbar ? "translate-y-0" : "-translate-y-full"}`}>
           <div>
             <a href="#"
