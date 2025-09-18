@@ -25,15 +25,15 @@ const About = () => {
                     <span className={`flex-1 border-l border-1 border-[#93595b] ${third ? "opacity-100 to-right" : "opacity-0"}`}></span>
                   </div>
                   <div className="flex flex-col gap-4 text-justify md:text-normal">
-                    <p className={`text-base md:text-lg funnel-font transitio-opacity duration-800 ${second ? "opacity-100" : "opacity-0"}`}>From an early age, I discovered my passion for bringing imagination to life and shaping it into reality. Now that I've grown, Web Development has
-                      become my instrument through which I express my creativity and ambition.
+                    <p className={`text-base md:text-lg funnel-font transitio-opacity duration-800 ${second ? "opacity-100" : "opacity-0"}`}>From an early age, I discovered a passion for turning imagination into reality.
+                      Over time, that passion found its outlet in Web Development — a craft that allows me to express both creativity and ambition.
                     </p>
                     <p className={`text-base md:text-lg  funnel-font transitio-opacity duration-800 ${third ? "opacity-100" : "opacity-0"}`}>
-                      My interest in web development sparked at the age of 20 and I've been continuously finding ways to learn new technologies to further my capabilities.
+                      My interest began at the age of 20, and since then I’ve been committed to learning new technologies to strengthen my skills and expand my capabilities. Through this journey,
+                      I realized that when you’re truly passionate about something, learning becomes exciting and rewarding.
                     </p>
                     <p className={`text-base md:text-lg  funnel-font transitio-opacity duration-800 ${fourth ? "opacity-100" : "opacity-0"}`}>
-                      Web development helped me realized that learning something you're passionate about can be truly enjoyable. Every lesson I've gone through has fueled my growth — <br />
-                      and I'm excited to unveil the potential within me that has yet to be seen.
+                      Every lesson has fueled my growth, and I’m eager to continue unlocking my potential and taking on new challenges.
                     </p>
                   </div>
                 </div>
