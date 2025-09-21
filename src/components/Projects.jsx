@@ -43,7 +43,7 @@ const Projects = () => {
                 <div className="flex flex-col gap-6">
                   <p className="text-base sm:text-xl/tight text-justify mt-5">A social media platform designed for users to share their goals, track progress, and celebrate achievements together. Currently in active development.</p>
                   <div className="flex flex-col gap-2">
-                    <div className="flex items-center gap-2">
+                    <div className="flex flex-wrap items-center gap-2">
                       <span className="bg-[#582a2d] rounded-lg">
                         <p className="px-2 py-1 text-md sm:text-lg font-semibold">React.js</p>
                       </span>
@@ -56,8 +56,6 @@ const Projects = () => {
                       <span className="bg-[#582a2d] rounded-lg">
                         <p className="px-2 py-1 text-md sm:text-lg font-semibold">MongoDB</p>
                       </span>
-                    </div>
-                    <div className="flex items-center gap-2">
                       <span className="bg-[#582a2d] rounded-lg">
                         <p className="px-2 py-1 text-md sm:text-lg font-semibold">TailwindCSS</p>
                       </span>
@@ -87,7 +85,7 @@ const Projects = () => {
                 </div>
                 <div className="flex flex-col gap-4">
                   <p className="text-base sm:text-xl/tight text-justify mt-5">A dynamic web application that lets users explore and discover their favorite movies, powered by real-time data integration with TMDB’s API for a seamless browsing experience.</p>
-                  <div className="flex items-center gap-2">
+                  <div className="flex flex-wrap items-center gap-2">
                     <span className="bg-[#582a2d] rounded-lg">
                       <p className="px-2 py-1 text-md sm:text-lg font-semibold">React.js</p>
                     </span>
