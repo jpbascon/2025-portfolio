@@ -19,8 +19,8 @@ const Home = () => {
   return (
     <>
       <div className="relative">
-        <div className="flex pt-30 md:pt-50 pb-10 md:pb-30 max-w-7xl mx-auto" id="home">
-          <div className="flex flex-col px-10 md:px-15 md:flex-row gap-10 md:gap-[30%] justify-center items-stretch">
+        <div className="flex pt-30 md:pt-55 pb-10 md:pb-30 max-w-7xl mx-auto" id="home">
+          <div className="flex flex-col px-10 md:px-30 md:flex-row gap-10 md:gap-[30%] justify-center items-stretch">
             <div className="flex flex-col w-full relative z-10">
               <div className="flex flex-col gap-5">
                 <div className="text-5xl md:text-6xl font-bold cormorant-font">
@@ -32,8 +32,8 @@ const Home = () => {
               </div>
               <div className="hidden md:flex gap-5 mt-15">
                 <a href="#contact"
-                  className={`text-lg lg:text-xl px-10 py-5 text-[#93595b] border-1 border-[#93595b] hover:bg-[#93595b] hover:text-white rounded-sm
-                   transition-opacity duration-800 ${sixth ? "opacity-100" : "opacity-0"}`}>
+                  className={`contact text-lg lg:text-xl px-10 py-5 text-[#93595b] border-1 border-[#93595b] hover:bg-[#93595b] hover:text-white rounded-sm
+                  ${sixth ? "opacity-100" : "opacity-0"}`}>
                   Contact
                 </a>
               </div>
@@ -44,14 +44,14 @@ const Home = () => {
                 <p className={`transition-opacity duration-800 ${third ? "opacity-100" : "opacity-0"}`}>based in</p>
                 <p className={`transition-opacity duration-800 ${fourth ? "opacity-100" : "opacity-0"}`}>Philippines</p>
               </div>
-              <p className={`text-base md:text-lg  text-justify transition-opacity duration-800 ${fifth ? "opacity-100" : "opacity-0"}`}>
+              <p className={`text-base md:text-lg text-justify transition-opacity duration-800 ${fifth ? "opacity-100" : "opacity-0"}`}>
                 Passionate in web development. Pursuing to become a full-stack developer.
                 I'm looking for a company to contribute my skills and grow with a collaborative team, and help deliver impactful digital experiences.
               </p>
             </div>
           </div>
         </div>
-        <div className="hidden md:inline-block w-[350px] absolute top-110 left-[47%] -translate-x-1/2 -translate-y-1/2 z-1 pointer-events-none">
+        <div className="hidden md:inline-block w-[350px] absolute top-120 lg:top-115 xl:top-110 left-[47%] -translate-x-1/2 -translate-y-1/2 z-1 pointer-events-none">
           <img
             src="jasonguitar7.png"
             alt="Jason holding his guitar facing the camera"
