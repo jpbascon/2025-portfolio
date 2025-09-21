@@ -51,13 +51,7 @@ button {
 }
 
 .card {
-  box-shadow: 0 5px 10px rgba(0, 0, 0, .5);
-  transition: box-shadow .15s ease-in-out, transform .15s ease;
-}
-
-.card:hover {
-  box-shadow: 0 14px 15px rgba(0, 0, 0, .5);
-  transform: translateY(-5px);
+  box-shadow: 0 5px 40px rgba(0, 0, 0, .5);
 }
 
 .to-right {
