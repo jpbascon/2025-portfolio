@@ -64,7 +64,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-            <div className={`card flex flex-col rounded-xl transition-opacity duration-800 ${second ? "opacity-100" : "opacity-0"}`}>
+            <div className={`card flex flex-col rounded-xl transition-opacity duration-800 ${third ? "opacity-100" : "opacity-0"}`}>
               <a href="https://react-1-0-2.vercel.app/" target="_blank">
                 <img className="rounded-t-xl"
                   src="./movie-app.png"
