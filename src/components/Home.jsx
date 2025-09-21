@@ -45,8 +45,8 @@ const Home = () => {
                 <p className={`transition-opacity duration-800 ${fourth ? "opacity-100" : "opacity-0"}`}>Philippines</p>
               </div>
               <p className={`text-base md:text-lg text-justify transition-opacity duration-800 ${fifth ? "opacity-100" : "opacity-0"}`}>
-                Passionate in web development. Pursuing to become a full-stack developer.
-                I'm looking for a company to contribute my skills and grow with a collaborative team, and help deliver impactful digital experiences.
+                Passionate in web development. Pursuing to become a Software Engineer.
+                I'm looking for a company to contribute my skills, grow with a collaborative team, and help deliver impactful digital experiences.
               </p>
             </div>
           </div>
