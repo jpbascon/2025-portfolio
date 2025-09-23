@@ -8,8 +8,6 @@ html {
 
 body {
   @apply bg-neutral-900 text-[#f6f5f8];
-  width: 100vw;
-  height: 100vh;
   font-family: 'Funnel Sans', sans-serif;
 }
 

@@ -40,7 +40,7 @@ const Projects = () => {
                   </a>
                 </div>
                 <div className="flex flex-col gap-6">
-                  <p className="text-base sm:text-xl/tight text-justify mt-5">A platform designed for users to create, share, and track their progress. Currently in active development.</p>
+                  <p className="text-base sm:text-xl/tight text-justify mt-5">A platform designed for users to create, share, and track their progress.</p>
                   <div className="flex flex-col gap-2">
                     <div className="flex flex-wrap items-center gap-2">
                       <span className="bg-[#443637] rounded-lg">
