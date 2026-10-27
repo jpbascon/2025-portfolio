@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <>
       <div className="relative">
-        <div className="flex pt-30 md:pt-55 pb-10 md:pb-30 max-w-7xl mx-auto" id="home">
+        <div className="flex pt-30 md:pt-60 pb-10 md:pb-30 max-w-7xl mx-auto" id="home">
           <div className="flex flex-col px-10 md:px-30 md:flex-row gap-10 md:gap-[30%] justify-center items-stretch">
             <div className="flex flex-col w-full relative z-10">
               <div className="flex flex-col gap-5">
@@ -28,14 +28,6 @@ const Home = () => {
                   <p className={` transition-opacity duration-800 ${third ? "opacity-100" : "opacity-0"}`}>I'm <span className="text-[#93595b]">Jason</span></p>
                   <p className={`text-[#93595b]  transition-opacity duration-800 ${fourth ? "opacity-100" : "opacity-0 "}`}>Basconcillo</p>
                 </div>
-                <p className={`text-xl lg:text-2xl text-justify funnel-font  transition-opacity duration-800 ${fifth ? "opacity-100" : "opacity-0"}`}>Web Developer</p>
-              </div>
-              <div className="hidden md:flex gap-5 mt-15">
-                <a href="#contact"
-                  className={`contact text-lg lg:text-xl px-10 py-5 text-[#93595b] border-1 border-[#93595b] hover:bg-[#93595b] hover:text-white rounded-sm
-                  ${sixth ? "opacity-100" : "opacity-0"}`}>
-                  Contact
-                </a>
               </div>
             </div>
             <div className="gap-5 flex flex-col justify-center w-full relative z-10">
@@ -45,7 +37,7 @@ const Home = () => {
                 <p className={`transition-opacity duration-800 ${fourth ? "opacity-100" : "opacity-0"}`}>Philippines</p>
               </div>
               <p className={`text-base md:text-lg text-justify transition-opacity duration-800 ${fifth ? "opacity-100" : "opacity-0"}`}>
-                Passionate in web development. Pursuing to become a Software Engineer.
+                Frontend Developer at i4 Asia Incorporated.
                 I'm looking for a company to contribute my skills, grow with a collaborative team, and help deliver impactful digital experiences.
               </p>
             </div>
