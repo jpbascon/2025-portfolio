@@ -45,19 +45,19 @@ const Projects = () => {
                   <p className="text-base sm:text-xl/tight text-justify mt-5 flex-1">A full-stack platform for creating, sharing, and tracking goals in real time. Built with React.js, Node.js, Express.js, MongoDB, and TailwindCSS, it offers a responsive dashboard for managing milestones and monitoring progress.</p>
                   <div className="flex flex-col gap-2">
                     <div className="flex flex-wrap items-center gap-2">
-                      <span className="bg-[#443637] rounded-lg">
+                      <span className="bg-[#443637] hover:opacity-[0.7] cursor-pointer transition-all duration-200 rounded-lg">
                         <p className="px-2 py-1 text-md sm:text-lg font-semibold">React.js</p>
                       </span>
-                      <span className="bg-[#443637] rounded-lg">
+                      <span className="bg-[#443637] hover:opacity-[0.7] cursor-pointer transition-all duration-200 rounded-lg">
                         <p className="px-2 py-1 text-md sm:text-lg font-semibold">Node.js</p>
                       </span>
-                      <span className="bg-[#443637] rounded-lg">
+                      <span className="bg-[#443637] hover:opacity-[0.7] cursor-pointer transition-all duration-200 rounded-lg">
                         <p className="px-2 py-1 text-md sm:text-lg font-semibold">Express.js</p>
                       </span>
-                      <span className="bg-[#443637] rounded-lg">
+                      <span className="bg-[#443637] hover:opacity-[0.7] cursor-pointer transition-all duration-200 rounded-lg">
                         <p className="px-2 py-1 text-md sm:text-lg font-semibold">MongoDB</p>
                       </span>
-                      <span className="bg-[#443637] rounded-lg">
+                      <span className="bg-[#443637] hover:opacity-[0.7] cursor-pointer transition-all duration-200 rounded-lg">
                         <p className="px-2 py-1 text-md sm:text-lg font-semibold">TailwindCSS</p>
                       </span>
                     </div>
@@ -85,19 +85,19 @@ const Projects = () => {
                 <div className="flex flex-col gap-4 flex-1">
                   <p className="text-base sm:text-xl/tight text-justify mt-5 flex-1">A responsive web application built to provide real-time weather updates to users in a clean, modern interface. It’s designed to let users quickly check current weather conditions and forecasts with a smooth and intuitive experience.</p>
                   <div className="flex flex-wrap items-center gap-2">
-                    <span className="bg-[#443637] rounded-lg">
+                    <span className="bg-[#443637] hover:opacity-[0.7] cursor-pointer transition-all duration-200 rounded-lg">
                       <p className="px-2 py-1 text-md sm:text-lg font-semibold">HTML</p>
                     </span>
-                    <span className="bg-[#443637] rounded-lg">
+                    <span className="bg-[#443637] hover:opacity-[0.7] cursor-pointer transition-all duration-200 rounded-lg">
                       <p className="px-2 py-1 text-md sm:text-lg font-semibold">JavaScript</p>
                     </span>
-                    <span className="bg-[#443637] rounded-lg">
+                    <span className="bg-[#443637] hover:opacity-[0.7] cursor-pointer transition-all duration-200 rounded-lg">
                       <p className="px-2 py-1 text-md sm:text-lg font-semibold">PHP</p>
                     </span>
-                    <span className="bg-[#443637] rounded-lg">
+                    <span className="bg-[#443637] hover:opacity-[0.7] cursor-pointer transition-all duration-200 rounded-lg">
                       <p className="px-2 py-1 text-md sm:text-lg font-semibold">Laravel</p>
                     </span>
-                    <span className="bg-[#443637] rounded-lg">
+                    <span className="bg-[#443637] hover:opacity-[0.7] cursor-pointer transition-all duration-200 rounded-lg">
                       <p className="px-2 py-1 text-md sm:text-lg font-semibold">TailwindCSS</p>
                     </span>
                   </div>
@@ -124,16 +124,16 @@ const Projects = () => {
                 <div className="flex flex-col gap-4 flex-1">
                   <p className="text-base sm:text-xl/tight text-justify mt-5 flex-1">A dynamic web application that lets users explore and discover their favorite movies, powered by real-time data integration with TMDB’s API for a seamless browsing experience.</p>
                   <div className="flex flex-wrap items-center gap-2">
-                    <span className="bg-[#443637] rounded-lg">
+                    <span className="bg-[#443637] hover:opacity-[0.7] cursor-pointer transition-all duration-200 rounded-lg">
                       <p className="px-2 py-1 text-md sm:text-lg font-semibold">React.js</p>
                     </span>
-                    <span className="bg-[#443637] rounded-lg">
+                    <span className="bg-[#443637] hover:opacity-[0.7] cursor-pointer transition-all duration-200 rounded-lg">
                       <p className="px-2 py-1 text-md sm:text-lg font-semibold">JavaScript</p>
                     </span>
-                    <span className="bg-[#443637] rounded-lg">
+                    <span className="bg-[#443637] hover:opacity-[0.7] cursor-pointer transition-all duration-200 rounded-lg">
                       <p className="px-2 py-1 text-md sm:text-lg font-semibold">Appwrite</p>
                     </span>
-                    <span className="bg-[#443637] rounded-lg">
+                    <span className="bg-[#443637] hover:opacity-[0.7] cursor-pointer transition-all duration-200 rounded-lg">
                       <p className="px-2 py-1 text-md sm:text-lg font-semibold">TailwindCSS</p>
                     </span>
                   </div>
